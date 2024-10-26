@@ -16,6 +16,7 @@ module SuperDiff
       )
       autoload :Hash, "super_diff/basic/inspection_tree_builders/hash"
       autoload :Primitive, "super_diff/basic/inspection_tree_builders/primitive"
+      autoload :Range, "super_diff/basic/inspection_tree_builders/range"
       autoload :String, "super_diff/basic/inspection_tree_builders/string"
       autoload :TimeLike, "super_diff/basic/inspection_tree_builders/time_like"
       autoload :DateLike, "super_diff/basic/inspection_tree_builders/date_like"
